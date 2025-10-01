@@ -4,18 +4,21 @@
   <title>My First Website</title>
   <style>
     body {
-      background: black;   /* changes background */
-      color: white;        /* makes text visible */
+      background: black;   /* black background */
+      color: white;        /* white text */
       font-family: Arial, sans-serif;
       text-align: center;
       padding: 20px;
     }
+    h1 {
+      color: cyan;
+    }
     a {
-      color: lightblue;    /* link color */
+      color: lightblue;
       text-decoration: none;
     }
     a:hover {
-      color: yellow;       /* hover effect */
+      color: yellow;
     }
   </style>
 </head>
